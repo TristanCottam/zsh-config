@@ -1,2 +1,3 @@
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
+promptinit
