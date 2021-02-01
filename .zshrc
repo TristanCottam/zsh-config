@@ -8,6 +8,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 source $ANTIGEN
 
 antigen theme romkatv/powerlevel10k
