@@ -18,7 +18,7 @@ antigen bundle clvv/fasd
 
 antigen apply
 
-eval "$($ANTIGEN_BUNDLES/clvv/fasd/fasd --init auto)"
+eval "$($ANTIGEN_BUNDLES/clvv/fasd/fasd --init zsh-wcomp zsh-wcomp-install)"
 
 autoload -Uz compinit promptinit
 compinit -d $ANTIGEN_COMPDUMP
