@@ -28,6 +28,10 @@ DIRSTACKSIZE=10
 
 setopt autocd autopushd pushdignoredups pushdsilent
 
+bindkey -v
+
+alias s='sudo '
+
 alias d='dirs -v'
 alias 1='cd +1'
 alias 2='cd +2'
@@ -39,13 +43,10 @@ alias 7='cd +7'
 alias 8='cd +8'
 alias 9='cd +9'
 
-bindkey -v
-
 alias l='exa'
 alias la='exa -a'
 alias ll='exa -lbG'
 alias lla='exa -albG'
-alias s='sudo '
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
