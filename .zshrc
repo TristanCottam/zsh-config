@@ -42,8 +42,10 @@ alias 9='cd +9'
 bindkey -v
 
 alias l='exa'
-alias la='exa -labG'
-alias s='sudo'
+alias la='exa -a'
+alias ll='exa -lbG'
+alias lla='exa -albG'
+alias s='sudo '
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
