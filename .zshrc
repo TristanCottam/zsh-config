@@ -48,5 +48,7 @@ alias la='exa -a'
 alias ll='exa -lbG'
 alias lla='exa -albG'
 
+alias v='nvim'
+
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
